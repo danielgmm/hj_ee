@@ -1,4 +1,4 @@
-
+aula1
 /**
  * You can edit, run, and share this code.
  * play.kotlinlang.org
@@ -49,3 +49,96 @@ println("o messi ja ganhou $messiGoldenBall vezes a bola de ouro. mini messi")
 
 }
 
+
+aula2
+/**
+ * You can edit, run, and share this code.
+ * play.kotlinlang.org
+*/
+fun main(){
+    
+//operadores relacionais
+//
+//são sinais que auxiliam em comparações entre valores
+//
+// = ->para definir valores
+// == ->comparação de igualdade 
+// != ->diferença
+// > ->maior que...
+// < ->menor que...
+//
+//operadores mate,aticos
+//+ -> adição
+//- -> subtração
+// * -> multiplicação
+// / -> divisão
+// % -> módulo
+// ++ -> adiciona 1 valor
+// -- -> subtrai 1 de um valor
+// 
+
+// condições
+// if..else -> se..else simples
+// 
+// eestrutura do if..else simples
+// 
+// if(condição){
+// ação a ser executada
+// 
+// 
+/*
+var classificado = "real madrid"
+
+
+}
+*/
+//if..else composto
+//
+//estrutura:
+//if(condição){
+//ação
+//}else if(condição){
+//ação
+//}else{
+//ação
+//}
+/*
+var vidas = 1
+
+if(vidas == 5){
+   println("você está exelente!! que vida boa!!")
+}else if(vidas == 4){
+    println("voce esta muito bem!! pode comer miojo :)")
+}else if(vidas == 3){
+    println("voce ta ok, mas pode melhorar")
+}else if(vidas == 2){
+    println("ta tudo bem ai??")
+}else if(vidas == 1){
+    println("ce ta morrendo meno")
+}else{
+    println("voce não existe")
+}
+*/
+
+  /*  
+//exercicio 1 - faça um progama que verifique dois mumeros e indique
+//no console, o maior entre eles
+
+//exercicio 2 - faça um programa que indique no console, se um numero
+//verificado e positivo ou negativo
+//
+//.nos exercicios, devem ser utilizadas pelo menos 1 variavel
+//.os exercicios devem ser feitos com if..else
+*/
+ 
+var sorvete = 3
+var chocolate = 7
+
+if(sorvete > chocolate){ 
+    println("numero $sorvete maior que $chocolate")
+}else{ 
+     println("numero $chocolate maior que $sorvete")
+}
+     
+     
+}    
